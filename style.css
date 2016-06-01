@@ -1,0 +1,87 @@
+body {
+	background-color: smokewhite;
+
+/*	background-image: url('../images/notebookyellow.jpeg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem; 
+	overflow: auto; */
+}
+
+h1 {
+    display: block;
+	font-family: 'Raleway', sans-serif;	
+	font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.bigbox {
+	background-color: #32CD8E;
+	margin: 0 auto;
+	width: 47%;
+	padding: 10px 72px;
+	border-radius: 44px;
+	margin-top: 117px;
+}
+
+.addbutton {
+	background-color: #663399;
+	color: white;
+	border-color: darkgreen;
+	border-radius: 20px;
+	text-shadow: none;
+	border-style: none;
+	margin-left: 20px;
+}
+
+.addbutton:hover {
+	cursor: pointer;
+	border-color: green;
+	background-color: darkgreen;
+}
+
+.itemlist {
+	margin-top: 0;
+	padding: 20px 5px 5px 0px;
+	text-align: left;
+	list-style: none;
+}
+
+.itemlist li {
+	height: 30px;
+}
+
+.checkbox {
+	float: left;
+	margin-top: 3px;
+	margin-right: 30px;
+	height: 17px;
+	width: 17px;
+
+}
+
+.box-unchecked {
+	display: inline-block;
+}
+.box-checked {
+	display: none;
+}
+
+.fa-trash {
+	float: right;
+}
+
+.fa:hover {
+	cursor: pointer;
+	color: red;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+	color: gray;
+}
