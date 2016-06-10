@@ -11,8 +11,9 @@ body {
 
 h1 {
     display: block;
+    color: white;
 	font-family: 'Raleway', sans-serif;	
-	font-size: 2em;
+	font-size: 4em;
     -webkit-margin-before: 0.67em;
     -webkit-margin-after: 0.67em;
     -webkit-margin-start: 0px;
@@ -23,10 +24,10 @@ h1 {
 .bigbox {
 	background-color: #32CD8E;
 	margin: 0 auto;
-	width: 47%;
-	padding: 10px 72px;
+	width: 43%;
+	padding: 36px 97px;
 	border-radius: 44px;
-	margin-top: 117px;
+	margin-top: 136px;
 }
 
 .addbutton {
@@ -37,6 +38,7 @@ h1 {
 	text-shadow: none;
 	border-style: none;
 	margin-left: 20px;
+	font-family: 'Raleway', sans-serif
 }
 
 .addbutton:hover {
@@ -47,13 +49,14 @@ h1 {
 
 .itemlist {
 	margin-top: 0;
-	padding: 20px 5px 5px 0px;
+	padding: 30px 21px 8px 0px;
 	text-align: left;
 	list-style: none;
+	color: white;
 }
 
 .itemlist li {
-	height: 30px;
+	height: 68px;
 }
 
 .checkbox {
@@ -78,7 +81,7 @@ h1 {
 
 .fa:hover {
 	cursor: pointer;
-	color: red;
+	color: pink;
 }
 
 .strikethrough {
