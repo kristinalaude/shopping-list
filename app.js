@@ -1,11 +1,11 @@
-// select products purchased
+// choosing products to purchase
 $(document).ready(function() {
 	$('.itemlist').on('click', '.checkbox i', function() {
 		$(this).closest(".item").toggleClass('strikethrough');
 		$(this).closest(".fa").toggleClass('fa-check-square');
 	});
 
-// add items
+// adding items
 	$('.additem').on('click', '.addbutton', function() {
 	//$('.addbutton').click(function() {
 		if ( $('input#myText').val().trim().length == 0 ) {
@@ -17,7 +17,7 @@ $(document).ready(function() {
 		
 	});
 
-// delete items
+// deleting items
 	$('.itemlist').on('click', '.fa-trash', function() {
 		$(this).closest(".item").remove();
 	});
