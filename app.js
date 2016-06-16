@@ -14,7 +14,6 @@ $(document).ready(function() {
 			$(".itemlist").append('<li class="item"><div class="checkbox"><i class="fa fa-square-o"></i></div>' + $('input#myText').val() + '<i class="fa fa-trash"></i></li>');
 			$('input#myText').val(""); //make sure box is clean after new addition 
 		};
-		
 	});
 
 // deleting items
